@@ -411,10 +411,13 @@ h3{
 /*chatbox*/
 
 .chatboot{
-	display: block;
-	position: fixed;
-	top: 1059px;
-	right: 700px;
+	margin: 20px;
+	height:64px; 
+	position:fixed;
+    bottom: 25px;
+	right: 25px;
+    z-index:99999;
+
 }
 
 .chatboot a{
